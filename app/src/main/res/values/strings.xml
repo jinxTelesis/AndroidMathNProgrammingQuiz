@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">IndividualProjectQuest2V1</string>
+    <string name="splash_title">JINX STUDIOS</string>
+    <string name="quiz_title">QUIZO</string>
+
+    <!-- might need to add remove resources after this point -->
+
+    <string name="loginbtnt">Login</string>
+    <string name="regbtn">Register</string>
+    <string name="user_nametv">Username</string>
+    <string name="passtv">Password</string>
+    <string name="username_hint">Enter Username</string>
+    <string name="password_hint">Enter Password</string>
+    <string name="enter_infotv">Enter Information</string>
+    <string name="regformbtn">Register</string>
+    <string name="firstname">First Name</string>
+    <string name="fnhint">First Name</string>
+    <string name="lnhint">Last Name</string>
+    <string name="lntext">Last Name</string>
+    <string name="doblabel" />
+    <string name="dobhint">Date of Birth</string>
+    <string name="emailtxt">Enter Email</string>
+    <string name="email_hint">Enter Email</string>
+    <string name="passhintform">Enter Password</string>
+    <string name="passwordtxt">Enter Password</string>
+    <string name="mainprogramtv">Main Program</string>
+    <string name="user_nametvreg">Enter Username</string>
+    <string name="GameInstructions">Questions 1-5 are worth 20 points each. Questions
+    may have multiple answers. The third question is a bar you drag to a value and if you are with 5 of the
+    answer you get credit. The 6th question lets you wager a precentage of your points 0-100 for up to 200 points</string>
+    <string name="GameInTitle">Game Rules</string>
+    <string name="GameInstruction1">Questions 1-5 are worth 20 points</string>
+    <string name="GameInstruction2">Questions may have multiple answers</string>
+    <string name="GameInstruction3">For question 3 drag the bar to within 5 points for credit</string>
+    <string name="GameInstruction4">Question 6 lets you wager your points for up to 200 points</string>
+    <string name="RulesClick">RULES</string>
+    <string name="PlayClick">Play Game</string>
+    <string name="topscores">Top Scores</string>
+    <string name="richroll">\????</string>
+    <string name="question3question">What is the square root of 121?</string>
+    <string name="submitbtn">Submit</string>
+    <string name="question1question">Simplify (4x-3y)^2</string>
+    <string name="q1_cor_answer">16x^2 - 24xy + 9y^2</string>
+    <string name="q1_wro1_answer">16x^2 + 24xy - 9y^2</string>
+    <string name="q1_wro2_answer">16x^2 - 9y^2</string>
+    <string name="q1_wro3_answer">4x - 3y + 4x + 3y</string>
+    <string name="quest2_3answers">Find the derivatives of f(x) = x^3 - x^2 - x  + 1 </string>
+    <string name="q2_cor_answer1">f \'(x) = 3x^2 - 2x - 1</string>
+    <string name="q2_wro_answer1">f(x)=9x^2 + 2x - x</string>
+    <string name="q2_cor_answer2">f \'\'(x) = 6x - 2</string>
+    <string name="q2_cor_answer3">f \'\'\'(x) = 6</string>
+    <string name="q2_wro_answer2">f \'\'\'(x) = 9</string>
+    <string name="q2_wro_answer3">f \'(x)=3x^5 + x^4 + x^3</string>
+    <string name="que4ques">what is the worst case Big O of Mergesort</string>
+    <string name="q4_cor_answer1">O(n log n)</string>
+    <string name="q4_wro_answer1">O(1)</string>
+    <string name="q4_wro_answer2">O(!N)</string>
+    <string name="q4_wro_answer3">O (n^2 log n)</string>
+    <string name="que5que">What is the worst case big O of normal quicksort</string>
+    <string name="q5_cor_answer">O(n^2)</string>
+    <string name="q5_wro_answer1">O( N log N)</string>
+    <string name="q5_wro_answer2">O(1)</string>
+    <string name="q5_wro_answer">O(3^N)</string>
+    <string name="InstructionExit">Exit</string>
+    <string name="finalwager">Make a points wager before you find out the final question</string>
+    <string name="pointswager">Points wager</string>
+    <string name="question2hint">(hint select 3)</string>
+    <string name="wagerQuestion">Find (!7)? Please answer with the seekbar (only need to be within 30 for full credit)</string>
+    <string name="ScoreTitle">Top Scores</string>
+    <string name="return_text">return</string>
+
+    <string-array name="Initials">
+        <item>jin</item>
+        <item>boby</item>
+        <item>greg</item>
+        <item>betty</item>
+        <item>sammy</item>
+        <item>franky</item>
+        <item>billy</item>
+        <item>fredrich</item>
+
+    </string-array>
+
+    <string-array name="score">
+        <item>79</item>
+        <item>180</item>
+        <item>120</item>
+        <item>111</item>
+        <item>80</item>
+        <item>120</item>
+        <item>80</item>
+        <item>71</item>
+    </string-array>
+
+
+
+</resources>
+
