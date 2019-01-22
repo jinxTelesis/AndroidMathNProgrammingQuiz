@@ -26,13 +26,6 @@ public class AccountReg extends AppCompatActivity {
     private Button mRegB;
     private TextView tV1;
 
-    private EditText eTFN;
-    private EditText eTLN;
-    private EditText eTUN;
-    private EditText eTP;
-    private EditText eTEm;
-    private EditText eTDOB;
-
     private Toast etyFormToast;
 
     private String mFirstNameReturn ="";
@@ -41,6 +34,15 @@ public class AccountReg extends AppCompatActivity {
     private String mPasswordReturn="";
     private String mEmailReturn="";
     private String mDOfBirthReturn="";
+
+    private EditText eTFN;
+    private EditText eTLN;
+    private EditText eTUN;
+    private EditText eTP;
+    private EditText eTEm;
+    private EditText eTDOB;
+
+
 
 
     @Override
@@ -56,6 +58,38 @@ public class AccountReg extends AppCompatActivity {
         this.eTDOB = (EditText) findViewById(R.id.eTDOB);
         this.eTEm = (EditText) findViewById(R.id.eTEM);
         final LoginBackend backend = new LoginBackend();
+
+        // == resets the text color after errors 
+
+        eTFN.setOnFocusChangeListener((v,c)->{
+            eTFN.setTextColor(Color.BLACK);
+            eTFN.setText("");
+        });
+
+        eTLN.setOnFocusChangeListener((v,c)->{
+            eTLN.setTextColor(Color.BLACK);
+            eTLN.setText("");
+        });
+
+        eTUN.setOnFocusChangeListener((v,c)->{
+            eTUN.setTextColor(Color.BLACK);
+            eTUN.setText("");
+        });
+
+        eTP.setOnFocusChangeListener((v,c)->{
+            eTP.setTextColor(Color.BLACK);
+            eTP.setText("");
+        });
+
+        eTDOB.setOnFocusChangeListener((v,c)->{
+            eTDOB.setTextColor(Color.BLACK);
+            eTDOB.setText("");
+        });
+
+        eTEm.setOnFocusChangeListener((v,c)->{
+            eTEm.setTextColor(Color.BLACK);
+            eTEm.setText("");
+        });
 
         mRegB.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -133,42 +167,36 @@ public class AccountReg extends AppCompatActivity {
                     {
                         eTFN.setTextColor(Color.RED);
                         eTFN.setText("Invalid First Name");
-                        eTFN.setTextColor(Color.GRAY);
                     }
 
                     if(mLastNameReturn.equals(""))
                     {
                         eTLN.setTextColor(Color.RED);
                         eTLN.setText("Invalid Last Name");
-                        eTLN.setTextColor(Color.GRAY);
                     }
 
                     if(mUserNameReturn.equals(""))
                     {
                         eTUN.setTextColor(Color.RED);
                         eTUN.setText("Invalid User Name");
-                        eTUN.setTextColor(Color.GRAY);
                     }
 
                     if(mPasswordReturn.equals(""))
                     {
                         eTP.setTextColor(Color.RED);
                         eTP.setText("Invalid Password");
-                        eTP.setTextColor(Color.GRAY);
                     }
 
                     if(mDOfBirthReturn.equals(""))
                     {
                         eTDOB.setTextColor(Color.RED);
                         eTDOB.setText("Invalid Date of Birth");
-                        eTDOB.setTextColor(Color.GRAY);
                     }
 
                     if(mEmailReturn.equals(""))
                     {
                         eTEm.setTextColor(Color.RED);
                         eTEm.setText("Invalid Email");
-                        eTEm.setTextColor(Color.GRAY);
                     }
                 }
 
